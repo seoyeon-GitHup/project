@@ -23,4 +23,9 @@ result = cv2.bitwise_and(image, image, mask=mask)
 cv2.imshow('Original', image)
 cv2.imshow('Red Filtered', result)
 cv2.waitKey(0)
+<<<<<<< HEAD
 cv2.destroyAllWindows()
+=======
+cv2.destroyAllWindows()
+
+>>>>>>> main
