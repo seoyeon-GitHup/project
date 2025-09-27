@@ -1,0 +1,5 @@
+train: C:/git/task3/cars_detection/data/train/images
+val: C:/git/task3/cars_detection/data/valid/images
+
+nc: 9
+names: ["ambulance", "bicycle", "bus", "car", "motorbike", "pickup", "truck", "van", "license plate"]
