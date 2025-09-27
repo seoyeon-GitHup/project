@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import pandas as pd
 
 # 학습된 모델 경로
-model_path = r"C:\git\task3\cars_detection\runs\detect\train14\weights\last.pt"
+model_path = r"C:\git\task3\cars_detection\runs\detect\train14\weights\best.pt"
 model = YOLO(model_path)
 
 # 모델 평가

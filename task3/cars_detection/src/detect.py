@@ -3,7 +3,7 @@ from ultralytics import YOLO
 import os
 
 # 학습된 YOLO 모델 경로 (train14 기준)
-model_path = r"C:\git\task3\cars_detection\runs\detect\train14\weights\last.pt"
+model_path = r"C:\git\task3\cars_detection\runs\detect\train14\weights\best.pt"
 model = YOLO(model_path)
 
 # 테스트할 이미지 경로 (절대경로 사용)
